@@ -1,0 +1,717 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #199af0;
+    color: white;
+    
+}
+.logo{
+    position: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.logo1{
+    display: inline;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 1.4rem;
+    color: white;
+    
+}
+
+.ham{
+    display: none;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+
+}
+.ham span{
+    display: block;
+    background-color: white;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+.enlaces-menu{
+    display: flex;
+    padding: 0;
+}
+.enlaces-menu li{
+    padding: 0 40px;
+    list-style-type: none;
+    transition: 0.3s;
+}
+.enlaces-menu li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.enlaces-menu li:hover{
+    color: rgb(6, 15, 146);
+}
+.color1{
+    color: white;
+    text-decoration: none;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+.principal1{
+    display: flex;
+    flex-direction: row;
+}
+.principal2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.foto{
+    display: flex;
+    flex-direction: row;
+
+}
+.boton1{
+    display: flex;
+    flex-direction: column;
+    position: none;
+    background-color: rgb(95, 149, 194);
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px;
+    border-radius: 15px;
+    
+}
+.boton{
+    display: flex;
+    flex-direction: column;
+    position: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.boton00{
+    color: white;
+    text-decoration: none;
+}
+.letra1{
+    color: #1621c0;
+}
+.letra2{
+    position: none;
+    padding-top: 50px;
+}
+.letra3{
+    position: none;
+    padding-top: 50px;
+}
+.nombre{
+    color: #1621c0;
+    font-size: 2.2rem;
+    padding-top: 50px;
+}
+.boton00{
+    position: none;
+    background-color: rgb(95, 149, 194);
+    color: white;
+    width: 150px;
+    height: 80px;
+    font-size: 15px;
+    box-shadow:0px 0px 1px;
+    border-radius: 14px;
+}
+.letra4{
+    position: none;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.instagran{
+    position: absolute;
+    width: 30.36px;
+height: 25.74px;
+left: 200px;
+
+color: #141A1A;
+
+background: #29149b;
+}
+.LinkedIn{
+    position: absolute;
+    width: 30.36px;
+height: 25.74px;
+left: 250px;
+
+color: #141A1A;
+
+background: #0076E2;
+}
+
+.twitter{
+    position: absolute;
+    width: 30.36px;
+    height: 25.74px;
+    left: 300px;
+    
+    
+    color: #141A1A;
+    
+    background: #00C5C5;
+}
+.behance{
+    position: absolute;
+    width: 30.36px;
+    height: 25.74px;
+    left: 350px;
+    
+    
+    color: #141A1A;
+    
+    background: #00C5C5;
+}
+
+.parrafo1{
+    position: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+.parrafo2{
+    font-size: 2.2rem;
+    color: #0872BF;
+}
+.fila{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.flex1{
+background: #DFEAFF;
+border-radius: 100px 100px 0px 0px;
+position: absolute;
+height: 645px;
+left: 0%;
+right: 0%;
+top: 647px;
+
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px;
+    gap: 15px;
+    
+    position: absolute;
+    height: 537px;
+    left: 96.46px;
+    right: 929.86;
+    top: 70px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    
+
+}
+.card2{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 49px;
+gap: 15px;
+
+position: absolute;
+height: 537px;
+left: 36.93%;
+right: 36.96%;
+top: 70px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px;
+    gap: 15px;
+    
+    position: absolute;
+    height: 537px;
+    left: 66.94%;
+    right: 6.94%;
+    top: 70px;
+    bottom: 416px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
+.imagenh1{
+    width: 100px;
+    
+    
+
+}
+
+.imagenh2{
+    width: 100px;
+    
+
+}
+
+.imagenh3{width: 100px;
+    
+
+}
+.logo01{
+    position: absolute;
+    width: 180px;
+    height: 192px;
+    left: 80px;
+    top: 1339px;
+
+}
+.logo02{
+    position: absolute;
+    width: 180px;
+    height: 192px;
+    left: 80px;
+    top: 1339px;
+}
+
+.flex{
+    margin-top: 700px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bi-people{
+    position: absolute;
+    width: 180px;
+    height: 192px;
+    left: 150px;
+    top: 1339px;
+    color: var(--color-principal);
+
+}
+.img1{
+width: 100px;
+position: none;
+}
+.img2{
+width: 65px;
+}
+.img3{
+width: 100px;
+}
+.parrafo1{
+    font-size: 1.5rem;
+}
+.parrafo2{
+    font-size: 2.5rem;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px #0872BF;
+    border-radius: 20px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px #0872BF;
+    border-radius: 20px;    
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px #0872BF;
+    border-radius: 20px;    
+}
+
+.columna1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 80px;
+}
+.colorletra01{
+    color: #0872BF;
+}
+.tamañoletra1{
+    font-size: 2rem;
+}
+.orden1{
+    position: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+@media (min-width: 320px ) {
+    .logo{
+        position: none;
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+    }
+    .logo1{
+        display: inline;
+        flex-wrap: wrap;
+        position: absolute;
+        padding-left: 15px;
+        padding-top: 5px;
+        font-size: 2rem;
+        color: white;
+        
+    }
+   
+    .ham{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .enlaces-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 92vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+    }
+    .enlaces-menu li{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .enlaces-menu.activado{
+        display: flex;
+    }
+    .principal{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .principal1{
+        display: flex;
+        flex-direction: column;
+    }
+    .principal2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .foto{
+        display: flex;
+        flex-direction: column;
+    }
+    .boton1{
+        display: flex;
+        flex-direction: column;
+        position: none;
+        background-color: rgb(95, 149, 194);
+        color: white;
+        height: 40px;
+        font-size: 15px;
+        box-shadow: 0px 0px 1px;
+        border-radius: 15px;
+        
+    }
+    .boton{
+        display: flex;
+        flex-direction: column;
+        position: none;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-right: 60px;
+        
+    }
+    .boton00{
+        color: white;
+        text-decoration: none;
+    }
+ 
+    
+}
+
+    @media (min-width: 768px ) {
+        .logo{
+            position: none;
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 20px;
+            
+        }
+        .logo1{
+            display: inline;
+            flex-wrap: wrap;
+            position: absolute;
+            padding-left: 15px;
+            padding-top: 5px;
+            font-size: 2rem;
+            color: white;
+            
+        }
+        .ham{
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 25px;
+        }
+        nav{
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        .enlaces-menu{
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 92vh;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: none;
+        }
+        .enlaces-menu li{
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+        .enlaces-menu.activado{
+            display: flex;
+        }
+        
+        
+        .principal{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        .principal1{
+            display: flex;
+            flex-direction: row;
+        }
+        .principal2{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        .foto{
+            display: flex;
+            flex-direction: column;
+        }
+        .boton1{
+            display: flex;
+            flex-direction: column;
+            position: none;
+            background-color: rgb(95, 149, 194);
+            color: white;
+            height: 40px;
+            font-size: 15px;
+            box-shadow: 0px 0px 1px;
+            border-radius: 15px;
+            
+        }
+        .boton{
+            display: flex;
+            flex-direction: column;
+            position: none;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100px;
+            
+        }
+        .boton00{
+            color: white;
+            text-decoration: none;
+        }
+     
+    
+    
+    }
+    @media (min-width: 990px ) {
+        .logo{
+            position: none;
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 20px;
+            
+        }
+        .logo1{
+        display: flex;
+        flex-direction: row;
+            display: inline;
+            flex-wrap: wrap;
+            position: absolute;
+            padding-left: 15px;
+            padding-top: 5px;
+            font-size: 2rem;
+            color: white;
+            
+        }
+        .ham{
+            display: none;
+            cursor: pointer;
+            border: none;
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+        
+        }
+        nav{
+            flex-direction: row;
+            align-items: flex-start;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        .ham span{
+            display: block;
+            background-color: white;
+            height: 3px;
+            width: 28px;
+            margin: 10px auto;
+            border-radius: 2px;
+        }
+        .enlaces-menu{
+            display: flex;
+            flex-direction: row;
+
+            padding: 0;
+        }
+        .enlaces-menu{
+            display: flex;
+            flex-direction: row;
+            width: 75%;
+            margin-left: 250px;
+            margin-top: -50px;
+            height: 0;
+            padding: 0;
+        }
+        .enlaces-menu li{
+            padding: 0 40px;
+            list-style-type: none;
+            transition: 0.3s;
+        }
+        .enlaces-menu li a{
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+        .enlaces-menu li:hover{
+            color: rgb(6, 15, 146);
+        }
+        
+        
+        .principal{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        .principal1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 80px;
+        }
+        .principal2{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        .foto{
+            display: flex;
+            flex-direction: row;
+        }
+        .boton1{
+            display: flex;
+            flex-direction: column;
+            position: none;
+            background-color: rgb(95, 149, 194);
+            color: white;
+            height: 40px;
+            font-size: 15px;
+            box-shadow: 0px 0px 1px;
+            border-radius: 15px;
+            
+        }
+        .boton{
+            display: flex;
+            flex-direction: column;
+            position: none;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100px;
+            
+        }
+        .boton00{
+            color: white;
+            text-decoration: none;
+        }
+        
+        }
+        
