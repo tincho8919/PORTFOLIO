@@ -67,7 +67,43 @@ body{
     color: white;
     text-decoration: none;
 }
+.footer{
+    background-color: darkgray;
+}
 
+.copy{
+    position: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.us{
+    position: none;
+    text-align: center;
+    font-size: 2rem;
+}
+.bottonfooter{
+    position: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.whatsapp{
+    color: green;
+    
+}
+.facebook{
+    color: blue;
+}
+.instagram{
+    color: #29149b;
+}
+.linkedin{
+    color: darkblue;
+}
 
 
 
