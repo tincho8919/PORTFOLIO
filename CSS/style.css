@@ -542,8 +542,29 @@ width: 100px;
         color: white;
         text-decoration: none;
     }
- 
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-right: 60px;
     
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
 }
 
     @media (min-width: 768px ) {
@@ -640,7 +661,28 @@ width: 100px;
             color: white;
             text-decoration: none;
         }
-     
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 40px;
+            right: 100px;
+        
+        }
+        .img{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        
+        }
     
     
     }
@@ -761,6 +803,16 @@ width: 100px;
         .boton00{
             color: white;
             text-decoration: none;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 40px;
+        
         }
         
         }
