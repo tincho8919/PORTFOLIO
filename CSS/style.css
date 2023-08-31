@@ -377,6 +377,15 @@ width: 100px;
     box-shadow: 0px 0px 4px #0872BF;
     border-radius: 20px;    
 }
+.letra5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; 
+    margin-right: 50px;
+    color: #1621c0;
+}
 
 .columna1{
     display: flex;
@@ -428,6 +437,9 @@ width: 100px;
 .whatsapp{
     color: green;
     
+}
+.gmail{
+    color: red;
 }
 .facebook{
     color: blue;

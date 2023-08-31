@@ -124,6 +124,9 @@ body{
     color: green;
     
 }
+.gmail{
+    color: red;
+}
 .facebook{
     color: blue;
 }
@@ -133,6 +136,7 @@ body{
 .linkedin{
     color: darkblue;
 }
+
 
 @media (min-width: 320px ) {
     .logo{
